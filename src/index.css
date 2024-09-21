@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color:#21243D
+
+}
+
+.primary_color{
+  background-color: #FF6464;
+}
+
+.secondary_color{
+  background-color: #EDF7FA;
+}
+
+.person{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+  box-shadow: var(--light-shadow);
+}
